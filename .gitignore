@@ -1,3 +1,4 @@
+##githubテンプレート
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -205,3 +206,22 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+##signateコンペ用に追記
+# データ (公開禁止)
+data/
+*.csv
+*.tsv
+*.zip
+*.parquet
+*.json
+
+# 学習済みモデル
+models/
+*.pkl
+*.joblib
+*.h5
+
+# ログ
+logs/
+*.log
